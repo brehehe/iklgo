@@ -229,20 +229,20 @@ footer .subscribe-form .input-wrapper input[type="submit"]:hover,.theme-inner-ba
 .shop-page .shop-sidebar .sidebar-categories li a:hover,.shop-page .shop-sidebar .popular-product li:hover .text a,.shop-page .shop-product-wrapper .single-product:hover h6 a,
 .shop-page .shop-product-wrapper .single-product>a:hover,.contact-us .contact-address>a:hover,.contact-us .contact-address ul li a:hover,.faq-form form input[type="submit"],
 #mega-menu-wrapper .nav>li:hover>a,#mega-menu-wrapper .nav>li.active>a  {
-  color:#06d56c;
+  color:#4285F4;
 }
 .p-bg-color,.scroll-top,#mega-menu-wrapper .nav>li.login a,#mega-menu-wrapper .nav>li.dropdown-holder .sub-menu li:hover>a,body .theme-button:hover,
 .pricing-plan .nav-tabs > li.active > a,.pricing-plan .nav-tabs > li.active > a:hover,.pricing-plan .nav-tabs > li.active > a:focus,
 footer .subscribe-form .input-wrapper input[type="submit"],.theme-counter.bg-color,.blog-sidebar .sidebar-keyword ul a:hover,.form-styl-one input[type="submit"]:hover,
 .related-product .owl-theme .owl-nav [class*=owl-]:hover,.form-styl-two input[type="submit"],.popular-faq .faq-panel .panel-group .panel-heading.active-panel a:before,
 .faq-form form input[type="submit"]:hover  {
-  background: #06d56c;
+  background: #4285F4;
 }
 body .theme-button:hover,.client-section-two .icon,.project-details .page-changer li a:hover i,.blog-sidebar .sidebar-keyword ul a:hover,
 .related-product .owl-theme .owl-nav [class*=owl-]:hover,.form-styl-two input[type="text"]:focus,.form-styl-two textarea:focus,.form-styl-two input[type="email"]:focus,
 .popular-faq .faq-panel .panel-group .panel-heading.active-panel a:before,.faq-form form input[type="submit"],#mega-menu-wrapper .nav>li.login a {
   border-style: solid;
-  border-color:#06d56c;
+  border-color:#4285F4;
 }
 
 /*------------------------------ Theme menu Style ----------------------*/
@@ -575,7 +575,7 @@ header.theme-menu-wrapper {
 .pricing-plan .nav-tabs > li.active > a:hover,
 .pricing-plan .nav-tabs > li.active > a:focus {
   color: #fff;
-  border:2px solid #06d56c;
+  border:2px solid #4285F4;
 }
 .pricing-plan .price-table {
   text-align: center;

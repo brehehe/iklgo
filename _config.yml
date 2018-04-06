@@ -2,18 +2,16 @@
 # command 
 # jekyll serve --incremental
 # jekyll serve --incremental --host 0.0.0.0
-title: "Iklan Radio Suara Surabaya"
-description: "Perusahaan Jasa Agency Iklan Radio Suara Surabaya Adlibs, Spot, Talk show, Wawancara"
-url: https://iklanradiosuarasurabaya.com
+title: "Iklan Google Adwords Youtube Mobile Search"
+description: "Perusahaan Jasa Agency Iklan Google untuk Google Adwords, Google Youtube, Google Search, Google Mobile"
+url: https://brehehe.github.io/iklgo
 # url: http://127.0.0.1:4000
-# mainurl: https://brehehe.github.io/iklanradioss/
-# mainurl: http://127.0.0.1:4000
-loading_teks: Iklan Radio Suara Surabaya
-stylever: 22
+loading_teks: Iklan Google
+stylever: 23
 
 info_logourl: logo-sbyad.png
 info_logourlpp: pp-logo-sbyad.png
-info_logourlppwht: img/logo/putih/logo-sby-ad-putih-500.png
+#info_logourlppwht: img/logo/putih/logo-sby-ad-putih-500.png
 #info_email: marketing.surabaya_ad@yahoo.com
 info_email: info@surabaya-ad.com
 info_whatsapp: 081234 800 99
