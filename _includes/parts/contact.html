@@ -1,0 +1,65 @@
+
+<!-- 
+			=============================================
+				Contact Us
+			============================================== 
+-->
+<div class="contact-us">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7 col-md-6 col-xs-12">
+				<div class="contact-us-form">
+					<form action="{{ site.script_post }}" class="form-validation form-styl-two" autocomplete="off">
+						<div class="row">
+							<div class="col-sm-6"><input type="text" placeholder="Nama*" name="nama"></div>
+							<div class="col-sm-6"><input type="email" placeholder="Email Address*" name="email"></div>
+							<div class="col-sm-6"><input type="text" placeholder="Subject*" name="judul"></div>
+							<div class="col-sm-6"><input type="text" placeholder="Nomor Handphone*" name="tel"></div>
+						</div>
+						<textarea placeholder="Your Message" name="pesan"></textarea>
+						<input type="submit" class="tran3s theme-button" value="SEnd Message">
+					</form>
+				</div> <!-- /.contact-us-form -->
+			</div> <!-- /.col- -->
+			<div class="col-lg-5 col-md-6 col-xs-12">
+				<div class="contact-address">
+					<h2>Kontak Hotline Iklan Radio Suara Surabaya</h2>
+					<p>Telpon kami untuk komunikasi lebih cepat dan konsultasi permasalahan seputar Iklan radio</p>
+					<p>{{ site.info_alamat }}</p>
+					<a href="tel:{{ site.info_whatsapp }}" title='Kontak Iklan Radio' class="tran3s">{{ site.info_whatsapp }}</a>
+					<ul>
+						<li><a href="{{ site.sosmed_facebook }}" class="tran3s"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="{{ site.sosmed_twitter }}" class="tran3s"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="{{ site.sosmed_instagram }}" class="tran3s"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					</ul>
+				</div> <!-- /.contact-address -->
+			</div> <!-- /.col- -->
+		</div> <!-- /.row -->
+	</div> <!-- /.conatiner -->
+	
+	<div class="container">
+		<div class='row'>
+			<iframe src="https://maps.google.com/maps?q=Jl. Kencanasari Timur XV/6 Surabaya&amp;output=embed&amp;noscroll=1" height="340" width="100%"></iframe>
+		</div>
+	</div>
+
+
+	<!--Contact Form Validation Markup -->
+	<!-- Contact alert -->
+	<div class="alert-wrapper" id="alert-success">
+		<div id="success">
+			<button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
+			<div class="wrapper">
+				<p>Your message was sent successfully.</p>
+			</div>
+		</div>
+	</div> <!-- End of .alert_wrapper -->
+	<div class="alert-wrapper" id="alert-error">
+		<div id="error">
+			<button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
+			<div class="wrapper">
+				<p>Sorry!Something Went Wrong.</p>
+			</div>
+		</div>
+	</div> <!-- End of .alert_wrapper -->
+</div> <!-- /.contact-us -->

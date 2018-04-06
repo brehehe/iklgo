@@ -1,0 +1,40 @@
+# global settings
+# command 
+# jekyll serve --incremental
+# jekyll serve --incremental --host 0.0.0.0
+title: "Iklan Radio Suara Surabaya"
+description: "Perusahaan Jasa Agency Iklan Radio Suara Surabaya Adlibs, Spot, Talk show, Wawancara"
+url: https://iklanradiosuarasurabaya.com
+# url: http://127.0.0.1:4000
+# mainurl: https://brehehe.github.io/iklanradioss/
+# mainurl: http://127.0.0.1:4000
+loading_teks: Iklan Radio Suara Surabaya
+stylever: 22
+
+info_logourl: logo-sbyad.png
+info_logourlpp: pp-logo-sbyad.png
+info_logourlppwht: img/logo/putih/logo-sby-ad-putih-500.png
+#info_email: marketing.surabaya_ad@yahoo.com
+info_email: info@surabaya-ad.com
+info_whatsapp: 081234 800 99
+info_nomor: 031-5611808
+info_alamat: "Jl. Kencanasari Timur XV/6 Surabaya Jawa Timur 60224"
+info_tel1: 031-5611808
+info_tel2: 031-5619989
+
+sosmed_facebook: https://www.facebook.com/surabayaad
+sosmed_twitter: https://twitter.com/Surabaya_Ad
+sosmed_instagram: https://www.instagram.com/surabayaad/
+
+script_post: https://script.google.com/macros/s/AKfycbwo2842yopFKC_zcqdfwE2rEgnWUnwfjkoj4_StNERaipsnyXZi/exec
+
+permalink: /:title/
+
+collections:
+
+plugins:
+  - jekyll-avatar
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed

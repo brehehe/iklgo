@@ -1,0 +1,116 @@
+{% include themes/home_header.html %}
+<body>
+	<div class="main-page-wrapper">
+		<!-- ===================================================
+			Loading Transition
+		==================================================== -->
+		<div id="loader-wrapper">
+			<div id="loader"></div>
+		</div>
+		{% include themes/home_menu.html %}
+		{% if page.this_page == "home" %}
+		{% include themes/home_1_banner.html %}
+		{% else %}
+		<!-- 
+			=============================================
+				Theme Main Banner
+			============================================== 
+		-->
+		<div class="theme-inner-banner">
+			<div class="opacity">
+				<div class="container">
+					<h2>Iklan Radio</h2>
+					<ul>
+						<li><a href="{{ site.url }}" class="tran3s">Home</a></li>
+						<li>.</li>
+						<li>{{ page.title }}</li>
+					</ul>
+				</div> <!-- /.container -->
+			</div> <!-- /.opacity -->
+		</div> <!-- /.theme-inner-banner -->
+		{% endif %}
+
+		{% if page.types == 'blog' %}
+		<!-- 
+		=============================================
+			Our Blog 
+		============================================== 
+		-->
+		<div class="our-blog blog-inner-page">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-xs-12 blog-details-content">
+						<div class="single-blog">
+							<div class="text">
+								{{ content }}
+							</div>
+						</div> <!-- /.single-blog -->
+					</div>
+					{% include parts/sidebar.html %}
+				</div> <!-- /.row -->
+			</div>
+		</div> <!-- /.our-blog -->
+		{% else %}
+		{{ content }}
+		{% endif %}
+
+		<!-- 
+			=============================================
+				Footer
+			============================================== 
+		-->
+		<footer>
+			<div class="container">
+				<div class="footer-data-wrapper">
+					<div class="bottom-footer">
+						<div class="row">
+							<div class="col-lg-6 col-md-7 col-xs-12 text-right pull-right">
+								<ul class="footer-menu">
+									<li><a href="https://bacacepat.com" class="tran3s">Baca Cepat</a></li>
+									<li><a href="https://iklanradio.com" class="tran3s">Iklan Radio</a></li>
+								</ul>
+								<ul class="social-icon">
+									<li><a href="{{ site.sosmed_facebook }}" class="tran3s"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="{{ site.sosmed_twitter }}" class="tran3s"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="{{ site.sosmed_instagram }}" class="tran3s"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+							<div class="col-lg-6 col-md-5 col-xs-12 footer-logo">
+								<div class="logo">
+									<a href="{{ site.url }}">Iklan Radio Suara Surabaya</a>
+								</div>
+								<p>All Right Reserved 2018 &copy; <strong><a href="https://www.surabaya-ad.com/">Surabaya Ad</a></strong></p>
+							</div>
+						</div> <!-- /.row -->
+					</div> <!-- /.bottom-footer -->
+				</div>
+			</div> <!-- /.container -->
+		</footer>
+
+		<!-- Scroll Top Button -->
+		<button class="scroll-top tran3s">
+			<i class="fa fa-angle-up" aria-hidden="true"></i>
+		</button>
+
+		<!-- jQuery -->
+		<script type="text/javascript" src="{{site.url}}/vendor/jquery.2.2.3.min.js"></script>
+		<script type="text/javascript" src="{{site.url}}/vendor/bootstrap/bootstrap.min.js"></script>
+		<script type="text/javascript" src="{{site.url}}/vendor/bootstrap-select/dist/js/bootstrap-select.js"></script>
+		<!-- Camera Slider -->
+		<script type='text/javascript' src='{{site.url}}/vendor/Camera-master/scripts/jquery.mobile.customized.min.js'></script>
+		<script type='text/javascript' src='{{site.url}}/vendor/Camera-master/scripts/jquery.easing.1.3.js'></script> 
+		<script type='text/javascript' src='{{site.url}}/vendor/Camera-master/scripts/camera.min.js'></script>
+		<!-- Mega menu  -->
+		<script type="text/javascript" src="{{site.url}}/vendor/bootstrap-mega-menu/js/menu.js"></script>
+		<!-- WOW js -->
+		<script type="text/javascript" src="{{site.url}}/vendor/WOW-master/dist/wow.min.js"></script>
+		<!-- owl.carousel -->
+		<script type="text/javascript" src="{{site.url}}/vendor/owl-carousel/owl.carousel.min.js"></script>
+		<!-- Fancybox -->
+		<script type="text/javascript" src="{{site.url}}/vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+		<!-- Theme js -->
+		<script type="text/javascript" src="{{site.url}}/js/theme.js"></script>
+		{% include parts/analytics.html %}
+	</div>
+</body>
+</html>
