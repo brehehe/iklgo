@@ -2,8 +2,8 @@
 # command 
 # jekyll serve --incremental
 # jekyll serve --incremental --host 0.0.0.0
-title: "Iklan Google Adwords Youtube Mobile Search"
-description: "Perusahaan Jasa Agency Iklan Google untuk Google Adwords, Google Youtube, Google Search, Google Mobile"
+title: "Pasang Iklan Google Adwords Youtube Mobile Search"
+description: "Perusahaan Jasa Agency Pasang Iklan Google untuk Google Adwords, Google Youtube, Google Search, Google Mobile"
 url: https://iklangoogle.id
 # url: http://127.0.0.1:4000
 loading_teks: Iklan Google
@@ -14,7 +14,7 @@ info_logourlpp: pp-logo-sbyad.png
 #info_logourlppwht: img/logo/putih/logo-sby-ad-putih-500.png
 #info_email: marketing.surabaya_ad@yahoo.com
 info_email: info@surabaya-ad.com
-info_whatsapp: 081234 800 99
+info_whatsapp: 081234 800 77
 info_nomor: 031-5611808
 info_alamat: "Jl. Kencanasari Timur XV/6 Surabaya Jawa Timur 60224"
 info_tel1: 031-5611808
