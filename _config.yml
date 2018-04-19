@@ -32,6 +32,23 @@ permalink: /:title/
 
 collections:
 
+facebook: https://www.facebook.com/Pasang-Iklan-Google-205727690033645/
+twitter: 
+  username: Surabaya_Ad
+
+social:
+  name: Surabaya AD
+  links:
+    - https://www.facebook.com/Pasang-Iklan-Google-205727690033645/
+    - https://twitter.com/Surabaya_Ad
+    - https://www.instagram.com/surabayaad/
+    - https://plus.google.com/u/2/113355031675278304715
+
+author:
+  twitter: Surabaya_Ad
+  facebook: surabayaad
+  instagram: surabayaad
+
 plugins:
   - jekyll-avatar
   - jekyll-redirect-from
